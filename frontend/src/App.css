@@ -1,0 +1,183 @@
+body{
+  background-color: rgb(30, 28, 28);
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3{
+  color: white;
+  margin-bottom: 20px;
+}
+#container form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+#container input{
+  padding: 4px;
+  width: 200px;
+  border:2px solid rgb(216, 200, 216);
+border-radius: 5px;
+
+  background-color: purple; /* changes the background inside the input */
+}
+#container input::placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+#container button{
+  height:30px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#error-container{
+margin-top: 20px;
+padding:5px;
+width: 200px;
+text-align: center;
+}
+#error{
+  color:red
+}
+#short-url-container,#updatedResult{
+  margin-top: 20px;
+  padding:10px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  color: purple;
+  background-color: rgb(39, 37, 37);
+  border-radius: 10px;
+}
+#updatedResult a{
+  text-decoration:none ;
+color: white;
+}
+#short-url-container a{
+  color: rgb(181, 98, 181);
+  text-decoration: none;
+
+}
+#short-url-container button{
+  background-color: rgb(127, 9, 127);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#update-container{
+  display:flex;
+  flex-direction : column;
+  align-items: center;
+}
+#update-button-container{
+  display: flex;
+  gap: 10px;
+}
+#url-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+#search-container form{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  
+}
+
+#search-container input{
+    padding: 4px;
+  width: 200px;
+  border:2px solid rgb(216, 200, 216);
+border-radius: 5px;
+  background-color: purple; 
+}
+#search-container input::placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+#search-container button{
+    height:30px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#search-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#original-url-container,#delete-message-container,#stats-display-container{
+  margin-top: 20px;
+  background-color: rgb(39, 37, 37);
+  width: 250px;
+  padding: 5px;
+  border-radius: 10px;
+color: rgba(222, 50, 142, 0.762);
+}
+#stats-display-container {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+#delete-message-container{
+    width: 500px;
+}
+#original-url-container a{
+  text-decoration: none;
+  color: white;
+}
+#button-container button{
+  background-color: rgb(39, 37, 37);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+} 
+#button-container{
+  display: flex;
+  column-gap: 30px;
+}
+#update-container form, #stats-container form{
+  display:flex;
+  flex-direction:column;
+  row-gap: 20px;
+  align-items: center;
+}
+#update-input-container{
+    display: flex;
+
+column-gap: 30px;
+}
+#update-input-container input, #stats-container input{
+    padding: 4px;
+  width: 200px;
+  border:2px solid rgb(216, 200, 216);
+border-radius: 5px;
+  background-color: purple; 
+}
+#update-input-container input::placeholder, #stats-container input::placeholder{
+  color:white;
+}
+#update-button-container button, #stats-container button{
+     height:30px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
